@@ -14,10 +14,10 @@
 /* - - :ROOT MEANS I CAN USE IT ANYWHERE IN THE PROJECT */
 :root {
  --color-bg: #98bbbe;
- --color-bg-variant: #2c2c6c;
- --color-primary: #4db5ff;
+ --color-bg-secondary: #be98a9;
+ --color-primary: #374345;
  --color-primary: variant: rgba(77, 181, 255, 0.4);
- --color-white: rgb(45, 45, 45);
+ --color-dark: rgb(45, 45, 45);
  --color-light: rgba(255, 255, 255, 0.6);
 
  --container-width-lg: 75%;
@@ -37,7 +37,7 @@ html {
 body {
  font-family: "Bellota Text", cursive;
  background: var(--color-bg);
- color: var(--color-white);
+ color: var(--color-dark);
  line-height: 1.7;
 }
 
@@ -84,26 +84,28 @@ a {
 }
 
 a:hover {
-    color: var(--color-white)
+    color: var(--color-dark)
 }
 
 .btn {
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
-    padding: 0.75rem 1.2rem;
+    padding: 0.1rem 0.5rem;
     border-radius: 0.4rem;
     cursor: pointer;
     transition: all 400ms ease-in;
+    border: solid;
+    border-color: var(--color-dark)
 }
 
 .btn:hover {
-    background: var(--color-white);
+    background: var(--color-dark);
     color: var(--color-bg);
 }
 
-.btn-primary {
-    background: var(--color-primary);
+.btn-secondary {
+    background: var(--color-dark);
     color: var(--color-bg);
 }
 

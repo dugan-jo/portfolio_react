@@ -1,0 +1,63 @@
+header {
+    height: 100vh;
+    padding-top: 1rem;
+    overflow: hidden
+}
+
+.headerContainer {
+    text-align: center;
+    padding-top: 2rem;
+    height: 100%;
+    position: relative;
+    background: var(--color-bg-secondary);
+    border-radius: 11rem 11rem 0rem 0rem;
+}
+
+/* ================= BUTTONS =================  */
+.headerButtons {
+    margin-top: 1rem;
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+}
+
+/* ================= SOCIALS =================  */
+.headerSocial {
+    display: flex;
+    margin-left: 1rem;
+    gap: 1rem;
+}
+
+
+
+/* ================= IMAGE =================  */
+.me {
+    background: var(--color-bg-secondary);
+    width: 20rem;
+    height: 40rem;
+    position: absolute;
+    /* puts the photo in the center */
+    left: calc(50% - 10rem); 
+    margin-top: 2rem;
+    border-radius: 10rem 10rem 0rem 0rem;
+}
+
+.scrollDown {
+    position: absolute;
+    right: -10rem;
+    bottom: 10rem;
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 100vh;
+
+    }
+
+}
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+}
