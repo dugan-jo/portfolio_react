@@ -16,6 +16,7 @@ const About = () => {
         with a focus on mobile-first design and development.
       </h5>
       <AboutMeButtons />
+      {/* <Link to={"/about"} /> */}
     </section>
   );
 };

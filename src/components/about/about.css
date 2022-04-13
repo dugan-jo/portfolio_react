@@ -6,12 +6,13 @@
     position: relative;
     background: var(--color-bg-secondary);
     border-radius: 0rem 11rem 11rem 0rem;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
 }
 
 /* ================= BUTTONS =================  */
 .aboutMeButtons {
     margin-top: 1rem;
-    display: flex;
-    gap: .5rem;
+    display: contents;
+    gap: 1rem;
     justify-content: center;
 }
