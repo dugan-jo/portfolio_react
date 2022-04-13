@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutMeButtons from "./AboutMeButtons";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -16,7 +17,6 @@ const About = () => {
         with a focus on mobile-first design and development.
       </h5>
       <AboutMeButtons />
-      {/* <Link to={"/about"} /> */}
     </section>
   );
 };
