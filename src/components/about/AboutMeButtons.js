@@ -3,7 +3,7 @@ import Resume from "../../assets/Joseph_Dugan_resume.pdf";
 
 const HeaderButtons = () => {
   return (
-    <div className="headerButtons">
+    <div className="aboutMeButtons">
       <a href={Resume} download className="btn">
         Download Resume
       </a>

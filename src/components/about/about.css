@@ -1,0 +1,17 @@
+#aboutMe {
+    margin-top: 5rem;
+    text-align: center;
+    padding: 2rem;
+    height: 100%;
+    position: relative;
+    background: var(--color-bg-secondary);
+    border-radius: 0rem 11rem 11rem 0rem;
+}
+
+/* ================= BUTTONS =================  */
+.aboutMeButtons {
+    margin-top: 1rem;
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+}

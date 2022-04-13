@@ -16,7 +16,7 @@
  --color-bg: #98bbbe;
  --color-bg-secondary: #be98a9;
  --color-primary: #374345;
- --color-primary: variant: rgba(77, 181, 255, 0.4);
+ /* --color-primary: variant: rgba(77, 181, 255, 0.4); */
  --color-dark: rgb(45, 45, 45);
  --color-light: rgba(255, 255, 255, 0.6);
 
@@ -46,6 +46,7 @@ body {
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;
+    
 }
 
 h1, 
