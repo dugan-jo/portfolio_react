@@ -50,6 +50,12 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Screenshots
 
+<img width="1273" alt="Screen Shot 2022-04-13 at 8 05 40 PM" src="https://user-images.githubusercontent.com/75266984/163312295-61004a4e-525c-44ea-b7b0-992218bd2d89.png">
+<img width="1276" alt="Screen Shot 2022-04-13 at 8 05 53 PM" src="https://user-images.githubusercontent.com/75266984/163312298-532bd89a-749c-46db-9025-4a7b4e854abc.png">
+<img width="1274" alt="Screen Shot 2022-04-13 at 8 06 07 PM" src="https://user-images.githubusercontent.com/75266984/163312305-8f4e971a-40f1-4bc9-90bd-185c75fe05fb.png">
+<img width="1278" alt="Screen Shot 2022-04-13 at 8 06 18 PM" src="https://user-images.githubusercontent.com/75266984/163312313-a517e95a-24ec-4ef6-b6f4-f567b18d71c4.png">
+
+
 ## Getting Started
 
 You’ll use `create-react-app` to build your portfolio, which will include the following:
