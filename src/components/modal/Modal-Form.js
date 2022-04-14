@@ -1,7 +1,20 @@
 import React from "react";
 import "./modal-form.css";
+import validator from "validator";
+import { useState } from "react";
 
 const Modal = ({ closeModal }) => {
+  const [emailError, setEmailError] = useState("");
+  const validateEmail = e => {
+    var email = e.target.value;
+
+    if (validator.isEmail(email)) {
+      setEmailError("Valid Email :)");
+    } else {
+      setEmailError("Enter valid Email!");
+    }
+  };
+
   return (
     <div className="modalBackground">
       <div className="modalContainer">
@@ -15,8 +28,20 @@ const Modal = ({ closeModal }) => {
         </div>
         <div className="body form">
           <input type="text" placeholder="Name"></input>
-          <input type="text" placeholder="E-mail"></input>
-          <input type="text" placeholder="Phone Number"></input>
+          <input
+            type="email"
+            placeholder="E-mail"
+            onChange={e => validateEmail(e)}
+          ></input>{" "}
+          <br />
+          <span
+            style={{
+              color: "red",
+            }}
+          >
+            {emailError}
+          </span>
+          /<input type="text" placeholder="Phone Number"></input>
           <input type="textarea" placeholder="Comments"></input>
         </div>
         <div className="footer">
