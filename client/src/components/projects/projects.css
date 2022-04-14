@@ -1,0 +1,45 @@
+.projectsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.card {
+    background: var(--color-primary);
+    padding: .8rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    transition: all 400ms ease-in-out;
+    color: var(--color-light);
+}
+
+.card:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    background: transparent;
+}
+
+img {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.projectLinks {
+   display: flex;
+   align-content: center;
+   gap: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .projectsContainer {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .projectsContainer {
+        grid-template-columns: 1fr;
+    }
+}

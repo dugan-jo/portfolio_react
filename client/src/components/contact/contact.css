@@ -1,0 +1,14 @@
+#contact {
+    margin-top: 5rem;
+}
+
+#contact {
+    margin-top: 5rem;
+    text-align: center;
+    padding: 2rem;
+    height: 100%;
+    position: relative;
+    background: var(--color-bg-secondary);
+    border-radius: 0rem 11rem 0rem 11rem;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}

@@ -1,0 +1,42 @@
+header {
+    height: 100vh;
+    padding-top: 1rem;
+    overflow: hidden
+}
+
+.headerContainer {
+    margin-top: 10rem;
+    text-align: center;
+    padding-top: 2rem;
+    height: 100%;
+    position: relative;
+    background: var(--color-bg-secondary);
+    border-radius: 11rem 11rem 0rem 0rem;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+
+
+/* ================= IMAGE =================  */
+.me {
+    width: 20rem;
+    height: 40rem;
+    position: absolute;
+    /* puts the photo in the center */
+    left: calc(50% - 10rem); 
+}
+
+.quote {
+    /* position: sticky; */
+    padding-top: 350px;
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 100vh;
+    }
+}
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+}
