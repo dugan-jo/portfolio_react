@@ -6,8 +6,6 @@ import { MdPermContactCalendar } from "react-icons/md";
 import { GrProjects } from "react-icons/gr";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-// import { useParams } from "react-router-dom";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
