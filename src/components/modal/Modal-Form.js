@@ -36,12 +36,12 @@ const Modal = ({ closeModal }) => {
           <br />
           <span
             style={{
-              color: "red",
+              color: "white",
             }}
           >
             {emailError}
           </span>
-          /<input type="text" placeholder="Phone Number"></input>
+          <input type="tel" placeholder="Phone Number"></input>
           <input type="textarea" placeholder="Comments"></input>
         </div>
         <div className="footer">

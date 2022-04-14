@@ -5,6 +5,7 @@ import Nav from "./components/nav/Nav";
 import Projects from "./components/projects/Projects";
 import Footer from "./components/footer/Footer";
 import About from "./components/about/About";
+import Resume from "./components/resume/Resume";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const App = () => {
@@ -23,9 +24,6 @@ const App = () => {
         </Routes>
         <Footer />
       </Router>
-      {/* <Projects />
-        <About />
-        <Contact /> */}
     </>
   );
 };

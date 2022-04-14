@@ -27,12 +27,10 @@ const Nav = () => {
         <GrProjects />
       </Link>
       <Link
-        // href="#aboutMe"
         to="/about"
         onClick={() => setActiveNav("#aboutMe")}
         className={activeNav === "#aboutMe" ? "active" : ""}
       >
-        {" "}
         <AiOutlineUser />
       </Link>
       <Link

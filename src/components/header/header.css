@@ -23,7 +23,11 @@ header {
     position: absolute;
     /* puts the photo in the center */
     left: calc(50% - 10rem); 
-    
+}
+
+.quote {
+    /* position: sticky; */
+    padding-top: 350px;
 }
 
 @media screen and (max-width: 1024px) {
