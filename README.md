@@ -1,5 +1,7 @@
 # 20 React: React Portfolio
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?dugan-jo=dugan-jo)](https://github.com/dugan-jo/portfolio_react)
+
 ## Your Task
 
 Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
