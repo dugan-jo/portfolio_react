@@ -1,6 +1,7 @@
 # 20 React: React Portfolio
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?dugan-jo=dugan-jo)](https://github.com/dugan-jo/portfolio_react)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dugan-jo)](https://github.com/anuraghazra/github-readme-stats)
+
 
 ## Your Task
 
